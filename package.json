@@ -1,23 +1,25 @@
 {
-  "name": "sihnchanrat",
-  "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "R8HEX",
+  "version": "1.0.0",
+  "description": "its a test version not illigal",
+  "main": "server.js",
   "engines": {
     "node": "16.13.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
-  "author": "shiva yadav",
+  "keywords": [],
+  "author": "l",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8",
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2",
-    "multer": "^1.4.5-lts.1",
-    "node-telegram-bot-api": "^0.65.1",
-    "uuid": "^9.0.1",
-    "ws": "^8.17.0"
+    "body-parser": "^2.0.2",
+    "express": "latest",
+    "multer": "^1.4.4",
+    "node-telegram-bot-api": "latest",
+    "uuid": "^11.0.3",
+    "ws": "latest",
+    "axios": "^1.7.9",
+    "node-fetch": "^2.6.7"
   }
 }
